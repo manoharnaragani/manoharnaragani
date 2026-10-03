@@ -1,4 +1,3 @@
-# 💫 About Me:
 # Hi, I'm Manohar 👋<br><br>## About Me<br><br>- 🎓 3rd-year B.Tech student in Computer Science (AI & Data Science)<br>- 🛠️ Excited to build real projects and learn by doing<br>- 🤖 Interested in AI and Data Science<br>- 📫 Let's connect and learn together!
 
 
