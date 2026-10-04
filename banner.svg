@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="240" rx="16" fill="url(#bg)"/>
+
+  <!-- floating dots -->
+  <circle cx="120" cy="60" r="4" fill="#00f5ff" opacity="0.6">
+    <animate attributeName="cy" values="60;40;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="260" cy="190" r="3" fill="#7b2ff7" opacity="0.8">
+    <animate attributeName="cy" values="190;170;190" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="480" cy="40" r="2.5" fill="#ffffff" opacity="0.5">
+    <animate attributeName="cy" values="40;60;40" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="200" r="4" fill="#00f5ff" opacity="0.6">
+    <animate attributeName="cy" values="200;180;200" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="880" cy="55" r="3" fill="#e4405f" opacity="0.7">
+    <animate attributeName="cy" values="55;35;55" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="620" cy="30" r="2" fill="#7b2ff7" opacity="0.8">
+    <animate attributeName="cy" values="30;50;30" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- name -->
+  <text x="500" y="115" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="url(#txt)" opacity="0">
+    Manohar Naragani
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- line under the name -->
+  <rect x="350" y="135" width="0" height="3" rx="1.5" fill="#00f5ff">
+    <animate attributeName="width" from="0" to="300" dur="1.5s" begin="0.8s" fill="freeze"/>
+  </rect>
+
+  <!-- subtitle -->
+  <text x="500" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#c9d1d9" opacity="0">
+    AI &amp; Data Science | Full Stack Learner | Builder
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="1.2s" fill="freeze"/>
+  </text>
+</svg>
