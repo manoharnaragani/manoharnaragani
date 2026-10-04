@@ -1,6 +1,6 @@
 <!-- ================= BANNER ================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=Manohar%20Naragani&fontSize=56&fontColor=00f5ff&animation=fadeIn&fontAlignY=36&desc=AI%20%26%20Data%20Science%20%7C%20Full%20Stack%20Learner%20%7C%20Builder&descSize=20&descAlignY=58" width="100%" alt="Banner" />
+  <img src="https://raw.githubusercontent.com/manoharnaragani/manoharnaragani/main/banner.svg" width="100%" alt="Manohar Naragani banner" />
 </p>
 
 <!-- ================= TYPING ANIMATION ================= -->
@@ -125,8 +125,3 @@ flowchart LR
 </p>
 
 <p align="center"><i>⭐ Thanks for stopping by. Let's build something great.</i></p>
-
-<!-- ================= FOOTER ================= -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt="Footer" />
-</p>
